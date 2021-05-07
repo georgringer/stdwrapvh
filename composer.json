@@ -1,0 +1,37 @@
+{
+    "name": "georgringer/stdwrapvh",
+    "type": "typo3-cms-extension",
+    "description": "Stdwrap VH inside fluid",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "fluid"
+    ],
+    "homepage": "https://ringer.it",
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5.17 || ^10.4.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\Stdwrapvh\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/stdwrapvh": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "stdwrapvh"
+        }
+    }
+
+}

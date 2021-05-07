@@ -12,7 +12,7 @@ This extension provides a ViewHelper to be able to apply any stdwrap configurati
 
 Requirements
 =============
-- TYPO3 6.0+
+- TYPO3 9.5/10.4
 
 
 How to use
@@ -64,22 +64,3 @@ The edit panel is used to link to the whole record in a popup.::
 
 	<stdwrap:render table="tx_news_domain_model_news" fields="title,teaser" id="{newsItem.uid}" mode="editPanel" />
 
-Misc
-=============
-
-Author
-------
-
-Author of this extension is Georg Ringer (http://www.montagmorgen.at).
-
-
-Contribution & Bug reports
-------------------------------
-
-Any contribution is highly welcomed. Please use the bugtracker of the `GitHub Project <https://github.com/georgringer/stdwrapvh/issues>`_
-
-
-License
-------------------
-
-The extension is licensed under GPL 2.0, same as TYPO3 CMS.
