@@ -24,7 +24,7 @@ class RenderViewHelper extends AbstractViewHelper
         $this->registerArgument('fields', 'string', '', true);
         $this->registerArgument('id', 'int', '', true);
         $this->registerArgument('mode', 'string', '', true);
-        $this->registerArgument('configuration', 'array', '', false);
+        $this->registerArgument('configuration', 'array', '', false, []);
     }
 
     public function render()
